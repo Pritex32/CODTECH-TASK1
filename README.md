@@ -38,4 +38,4 @@ Standard scaling was applied to the feature variables.
 ## Conclusion:
 SVM was selected as the best model based on its accuracy.
 The conclusion highlighted the growing trend of diabetes and recommended regular health checkups, personalized health devices, and consulting healthcare professionals.
-:[](https://github.com/Pritex32/CODTECH-TASK1/blob/main/diabetic.jpg)
+:[](diabetic.jpg)
