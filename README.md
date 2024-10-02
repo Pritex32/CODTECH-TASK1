@@ -18,7 +18,7 @@ The dataset had no missing values, but duplicate entries (1990) were identified 
 Outliers were handled using the IQR method for columns like 'Insulin,' 'BMI,' 'BloodPressure,' and 'Age.'
 Statistical Analysis: Summary statistics and correlations between features were computed. 'Glucose' showed the strongest correlation with diabetes outcome (0.46).
 
-## Model Building [Download here](
+## Model Building [Download here](diabetes-1.pdf)
 Five models were tested:
 - Logistic Regression
 - Decision Tree
