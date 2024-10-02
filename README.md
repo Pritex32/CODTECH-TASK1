@@ -8,19 +8,34 @@
 
 # Diabeties Analysis and prediction
 
-## Dataset Overview:
-The project uses a well-known diabetes dataset with columns such as Glucose, BloodPressure, Insulin, BMI, Age, and Outcome,
-which are standard features for predicting diabetes risk.
+## Data Overview: 
+The dataset used contains 2768 rows and 10 columns, including features like 'Pregnancies,' 'Glucose,' 'BloodPressure,' 
+'Insulin,' 'BMI,' 'Age,' and the target variable 'Outcome' (indicating diabetic vs. non-diabetic).
 
-## Data Preprocessing:
-The dataset is cleaned by dropping unnecessary columns, removing duplicates, and scaling the features, which is important for models like SVM.
+## Exploratory Data Analysis:
+Visualizations include count plots of diabetic vs. non-diabetic patients and age distribution.
+The dataset had no missing values, but duplicate entries (1990) were identified and removed.
+Outliers were handled using the IQR method for columns like 'Insulin,' 'BMI,' 'BloodPressure,' and 'Age.'
+Statistical Analysis: Summary statistics and correlations between features were computed. 'Glucose' showed the strongest correlation with diabetes outcome (0.46).
 
-## Model Selection:
-- Several classification algorithms were tested: Decision Trees, K-Nearest Neighbors (KNN), Support Vector Machine (SVM),
-- Logistic Regression, and Random Forest. This gives a good comparison of model performances.
+## Model Building [Download here](
+Five models were tested:
+- Logistic Regression
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Random Forest
   
-## Evaluation:
-Accuracy scores were calculated for each model, and SVM was selected as the best-performing model with an accuracy of 79.49%.
+## Data Processing:
+The data was split into training and testing sets (80% training, 20% testing).
+Standard scaling was applied to the feature variables.
 
-## Visualizations:
-Confusion matrices and scatterplots were generated to visualize model predictions, adding clarity to the evaluation.
+## Model Evaluation:
+- SVM performed the best with an accuracy of 79.48%.
+- KNN and Random Forest had similar accuracy (76.28%), while Logistic Regression performed slightly lower (75.64%).
+- Decision Tree was the least accurate (69.23%).
+  
+## Conclusion:
+SVM was selected as the best model based on its accuracy.
+The conclusion highlighted the growing trend of diabetes and recommended regular health checkups, personalized health devices, and consulting healthcare professionals.
+
