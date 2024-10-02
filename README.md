@@ -36,7 +36,7 @@ Standard scaling was applied to the feature variables.
 - Decision Tree was the least accurate (69.23%).
   
 ## Conclusion:
-[](https://github.com/Pritex32/CODTECH-TASK1/blob/main/diabetic.jpg)
+![](https://github.com/Pritex32/CODTECH-TASK1/blob/main/diabetic.jpg)
 SVM was selected as the best model based on its accuracy.
 The conclusion highlighted the growing trend of diabetes and recommended regular health checkups, personalized health devices, and consulting healthcare professionals.
 
